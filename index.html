@@ -96,6 +96,7 @@
             alert("trying to login");
             
                 FB.login(function(response) {
+                alert("getting response");
    if (response.authResponse) {
      alert('Welcome!  Fetching your information.... ');
      FB.api('/me', function(response) {
