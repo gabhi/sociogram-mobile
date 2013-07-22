@@ -239,6 +239,7 @@ $(document).on('click', '.logout', function () {
 });
 
 $(document).on('login', function () {
+alert("rrrr");
     FB.login(function(response) {
         console.log("Logged In");
     }, {scope: 'publish_actions,user_status,friends_status,read_stream'});
