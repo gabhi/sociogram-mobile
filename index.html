@@ -93,6 +93,8 @@
             }
             
             function login() {
+            alert("trying to login");
+            
                 FB.login(
                          function(response) {
                          if (response.session) {
@@ -103,6 +105,7 @@
                          },
                          { scope: "email" }
                          );
+                       alert("did i log in");  
             }
 			
 			
