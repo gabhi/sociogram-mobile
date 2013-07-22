@@ -210,7 +210,8 @@ $(document).on('ready', function () {
     fb.templateLoader.load(['menu', 'welcome', 'login', 'person', 'friends', 'feed', 'post', 'postui', 'error', 'revoke'], function () {
         fb.router = new fb.MobileRouter();
         Backbone.history.start();
-        FB.init({ appId: "404063823048178", nativeInterface: CDV.FB, useCachedDialogs: false, status: true });
+        
+        FB.init({ appId: "480506615360650", nativeInterface: CDV.FB, useCachedDialogs: false, status: true });
     });
 
     FB.Event.subscribe('auth.statusChange', function(event) {
