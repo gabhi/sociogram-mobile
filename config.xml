@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns ="http://www.w3.org/ns/widgets"
+        xmlns:gap ="http://phonegap.com/ns/1.0"
+        id ="com.psjplearn.pg-facebook2"
+        versionCode ="1"
+        version ="0.0.1">
+
+  <name>PG-Facebook-1</name>
+
+  <description>
+   Facebook plugin example
+  </description>
+
+  <author href="http://psjplearn.blogspot.com" email="gaikwad.abhijit@gmail.com">
+    Abhijit Gaikwad
+  </author>
+
+  <gap:plugin name="FacebookConnect">
+    <param name="APP_ID" value="404063823048178" />
+  </gap:plugin>
+</widget>
